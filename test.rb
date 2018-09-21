@@ -19,14 +19,13 @@ describe "Number Cruncher" do
     assert 2.prime?
   end
   
-=begin
   it "should say that 10 is not prime" do
     refute 10.prime?
   end
-
+  
   it "should return json" do
     get '/6'
-    last_response.headers['Content-Type'].must_equal 'application/json;charset=utf-8'
+    last_response.headers['Content-Type'].must_equal 'application/json'
   end
 
   it "should return the correct info about 6 as json" do
@@ -40,5 +39,4 @@ describe "Number Cruncher" do
     }
     six_info.to_json.must_equal last_response.body
   end
-=end
 end

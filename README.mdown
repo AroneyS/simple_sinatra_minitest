@@ -1,3 +1,2 @@
-### Status
 [![Build Status](https://travis-ci.org/AroneyS/simple_sinatra_minitest.png)](https://travis-ci.org/AroneyS/simple_sinatra_minitest)
-
+[![Coverage Status](https://coveralls.io/repos/github/AroneyS/simple_sinatra_minitest/badge.svg?branch=master)](https://coveralls.io/github/AroneyS/simple_sinatra_minitest?branch=master)
